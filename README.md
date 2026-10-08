@@ -38,7 +38,7 @@ flowchart TD
     Q[Search query] --> K[Atlas keyword search]
     Q --> V[Voyage query embedding]
     V --> S[Atlas Vector Search]
-    K --> F[Python reciprocal rank fusion]
+    K --> F[VoyageAI reciprocal rank fusion]
     S --> F
     F --> R[Ranked call summaries]
 ```
